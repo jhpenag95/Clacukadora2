@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilo.css">
+    <link rel="shortcut icon" href="cal.ico" />
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Calculadora</h1>
+        <br>
+        <form action="" id="formulario" name="" method="POST">
+            <label for="exampleColorInput" class="form-label">Primer Número:</label>
+            <input type="number" id="vl1" autofocus placeholder="Ingrese primer Número">
+            <br>
+            <br>
+            <label for="exampleColorInput" class="form-label">Segundo Número:</label>
+            <input type="number" id="vl2" autofocus placeholder="Ingrese segundo Número">
+
+            <br>
+            <br>
+            <button type="button" onclick="sumar();" class="btn btn-success">Suma</button>
+            <button type="button" onclick="restar();" class="btn btn-success">Restar</button>
+            <button type="button" onclick="multiplicar();" class="btn btn-success">Multiplicar</button>
+            <button type="button" onclick="dividir();" class="btn btn-success">Dividir</button>
+            <button type="button" onclick="limpiar();" class="btn btn-success">Borrar</button>
+            <br>
+            <br>
+            <p>El resultado es: <span id="resultado"></span></p>
+        </form>
+        </v>
+        <script src="funciones.js"></script>
+        <script src="./bootstrap/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

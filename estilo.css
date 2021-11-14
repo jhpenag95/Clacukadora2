@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(  244, 246, 247 );
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-family: 'Special Elite', cursive;
+    color: rgb( 245, 176, 65 );
+    font-size: 75px;
+}
+
+.head{
+    margin: 100px auto;
+    padding: 200px;
+    text-align: center;
+    background-color: rgb( 26, 82, 118);
+}
+
+#resultado{
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+
+input{
+    width: 300px;
+    background-color: rgb( 174, 214, 241);
+    color: rgb( 52, 73, 94 );
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+input:hover{
+    background-color: rgb(  133, 193, 233  );
+}
+
+label{
+    color: rgb(  244, 246, 247 );
+}
+
+p{
+    color: white;
+}
